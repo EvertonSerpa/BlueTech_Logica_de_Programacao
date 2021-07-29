@@ -10,7 +10,7 @@ A sua calculadora vai receber o `valor do aluguel` e calcular o aumento baseado 
 Valor do aluguel = 1000
 Valor do aluguel reajustado = R$ 1310,00'''
 print()
-aluguel = float(input('Qaul o valor do seu aluguel? R$ '))
+aluguel = float(input('Qual o valor do seu aluguel? R$ '))
 print()
 igpm = aluguel * 31 / 100 + aluguel
 print(f'O valor do seu aluguel é R$ {aluguel:.2f}\ncom o IGMP de 31% o novo valor fica R% {igpm:.2f}')

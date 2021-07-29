@@ -9,7 +9,7 @@ Valor do aluguel = 1000
 Percentual do reajuste = 31%
 Valor do aluguel reajustado = R% 1310,00'''
 print()
-aluguel = float(input('Qaul o valor do seu aluguel? R$ '))
+aluguel = float(input('Qual o valor do seu aluguel? R$ '))
 igmp = float(input('Informe o valor do IGMP: '))
 print()
 calculo = aluguel * 31 / 100 + aluguel
